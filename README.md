@@ -10,7 +10,7 @@ The prototype processes business texts by:
 - Extracting named entities (e.g., money amounts, dates) using spaCy.
 - Embedding the text into vectors stored locally for efficient similarity search.
 - Storing extracted entities and relationships in a Neo4j graph database.
-- Generating AI-based summaries of the text using OpenAI's GPT models.
+- Generating AI-based summaries and context-aware reasoning using Google’s Gemini large language model.
 - Providing an interactive Streamlit app to showcase input processing and results.
 
 ---
